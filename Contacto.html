@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=100vh, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="Jeff Steeves.jpg">
+    <script src="https://kit.fontawesome.com/b2ac5061e0.js" crossorigin="anonymous"></script>
+    <title>Contacto</title>
+</head>
+
+<body>
+    <header id="header">
+        <div class="header__div">
+                <img class="header__div-img" src="Jeff Steeves.jpg" href="index.html" alt="Jeff Steeves" title="Jeff Steeves">   
+            <h1 id="titulo">CURRICULUM</h1>
+        </div>
+        <nav class="header_nav">
+            <a class="header_nav-a nav1" href="index.html">PERFIL</a></li>
+            <a class="header_nav-a nav2" href="experiencia_laboral.html">EXPERIENCIA LABORAL</a></li>
+            <a class="header_nav-a nav3" href="Contacto.html">CONTACTO</a></li>
+        </nav>
+    </header>
+
+    <section class="perfil">
+        <h2 id="perfil__h2-contacto">CONTACTO</h2>
+        <div id="contacto__link">
+            <h2>Email:  <a class="link" href="mailto:jeff.steeves@example.com">jeff.steeves@example.com</h2></a>
+            <h2>Whatsapp:  <a class="link" href="https://wa.me/3378591797">(337)859-1797</a></h2>
+            <h2>Instagram:  <a class="link" href="https://www.instagram.com/Jeff.steeves">@Jeff.steeves</a></h2>    
+        </section>
+
+
+    <form class="formulario" id="formulario">
+        <div class="formulario__grupo formulario__nombre" id="grupo__nombre">
+            <label for="nombre" class="formulario__label">Nombre</label>
+            <div class="formulario__grupo-input">
+                <input type="text" class="formulario__input" name="nombre" id="nombre" placeholder="John Doe">
+                <i class="formulario__validacion-estado fas fa-times-circle"></i>
+            </div>
+            <p class="formulario__input-error">El nombre tiene que ser de 4 a 16 dígitos y solo puede contener numeros y letras.</p>
+        </div>
+
+        <div class="formulario__grupo formulario__apellido" id="grupo__apellido">
+            <label for="apellido" class="formulario__label">Apellido</label>
+            <div class="formulario__grupo-input">
+                <input type="text" class="formulario__input" name="apellido" id="apellido" placeholder="John Doe">
+                <i class="formulario__validacion-estado fas fa-times-circle"></i>
+            </div>
+            <p class="formulario__input-error">El apellido tiene que ser de 4 a 16 dígitos y solo puede contener numeros y letras.</p>
+        </div>
+
+        <div class="formulario__grupo" id="grupo__correo">
+            <label for="correo" class="formulario__label">Correo Electrónico</label>
+            <div class="formulario__grupo-input">
+                <input type="email" class="formulario__input" name="correo" id="correo" placeholder="correo@correo.com">
+                <i class="formulario__validacion-estado fas fa-times-circle"></i>
+            </div>
+            <p class="formulario__input-error">El correo solo puede contener letras, numeros, puntos, guiones y guion bajo.</p>
+        </div>
+
+        <div class="formulario__grupo" id="grupo__telefono">
+            <label for="telefono" class="formulario__label">Teléfono</label>
+            <div class="formulario__grupo-input">
+                <input type="text" class="formulario__input" name="telefono" id="telefono" placeholder="4491234567">
+                <i class="formulario__validacion-estado fas fa-times-circle"></i>
+            </div>
+            <p class="formulario__input-error">El telefono solo puede contener numeros y el maximo son 14 dígitos.</p>
+        </div>
+
+        <div class="formulario__grupo formulario__msj" id="grupo__msj">
+            <label for="msj" class="formulario__label">Mensaje</label>
+            <div class="formulario__grupo-input">
+                <input type="text" class="formulario__input" name="msj" id="msj" placeholder="John Doe">
+                <i class="formulario__validacion-estado fas fa-times-circle"></i>
+            </div>
+            <p class="formulario__input-error">El mensaje tiene que ser de 10 a 50 dígitos y solo puede contener letras, acentos y espacios.</p>
+        </div>
+
+        <div class="formulario__mensaje" id="formulario__mensaje">
+            <p><i class="fas fa-exclamation-triangle"></i> <b>Error:</b> Por favor rellena el formulario correctamente. </p>
+        </div>
+
+        <div class="formulario__grupo formulario__grupo-btn-enviar">
+            <button type="submit" class="formulario__btn">Enviar</button>
+            <p class="formulario__mensaje-exito" id="formulario__mensaje-exito">Formulario enviado exitosamente!</p>
+        </div>
+    </form>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <h4 class="copyright">© 2023 Anthony Távara, todos los derechos reservados.</h4>
+            <div class="icon-container">
+                <a href="https://twitter.com/?lang=es">
+                    <i  class="fa-brands fa-twitter icon"></i>
+                </a>
+                <a href="https://www.instagram.com/Jeff.steeves icon">
+                    <i  class="fa-brands fa-instagram icon" ></i>
+                </a>
+                <a href="https://discord.com/">
+                    <i class="fa-brands fa-discord icon"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="contacto.js"></script>
+  
+</body>
+</html>
